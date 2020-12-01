@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ZYGCDManager"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "ZYGCDManager"
   spec.description  = "ZYGCDManager for GCD Async/sync Methods"
   spec.homepage     = "https://github.com/zyshaunavayne/ZYGCD"
@@ -12,5 +12,5 @@ Pod::Spec.new do |spec|
   spec.frameworks   = "Foundation","UIKit"
   spec.source       = { git: "https://github.com/zyshaunavayne/ZYGCD.git", tag: spec.version, submodules: true }
   spec.source_files  = "ZYGCD/ZYGCD/*.{h,m}"
-  Spec.public_header_files = "ZYGCD/ZYGCD/*.h"
+  spec.public_header_files = "ZYGCD/ZYGCD/*.h"
 end
